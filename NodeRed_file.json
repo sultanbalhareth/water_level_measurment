@@ -1,0 +1,26 @@
+[
+    {
+        "id": "aa4c4fa83d6ab86c",
+        "type": "coap in",
+        "z": "09114395debd04e2",
+        "method": "PUT",
+        "name": "coap-server",
+        "server": "7b5456b98434b406",
+        "url": "/data",
+        "x": 210,
+        "y": 400,
+        "wires": [
+            [
+                "4191c0418c742238",
+                "2b34ad844d473ef6"
+            ]
+        ]
+    },
+    {
+        "id": "7b5456b98434b406",
+        "type": "coap-server",
+        "name": "CoAP Server",
+        "port": "5683",
+        "ipv6": false
+    }
+]
